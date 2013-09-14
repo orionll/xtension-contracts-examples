@@ -27,6 +27,7 @@ class ExampleContracts implements ExampleInterface {
 	}
 
 	override inheritedMethod(String a, String b) {
+		// Preconditions are inherited from ExampleInterface.inheritedMethod
 		println(a)
 		println(b)
 	}
